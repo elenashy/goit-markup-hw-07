@@ -1,11 +1,12 @@
-.container-footer {
+.footer-container {
+    @include margin-auto;
+
     display: flex;
     align-items: baseline;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .footer {
@@ -27,7 +28,7 @@
     margin-bottom: 20px;
 }
 
-.logo-studio-footer {
+.logo-footer__studio {
     color: var(--secondary-text-footer-color);
 }
 
@@ -35,11 +36,11 @@
     width: 230px;
 }
 
-.footer-contacts-item:not(:last-child) {
+.footer-contacts-list__item:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.footer-contact-maps {
+.footer-contact-list__maps {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -55,7 +56,7 @@
     }
 }
 
-.footer-contact-mail {
+.footer-contact-list__mail {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -71,7 +72,7 @@
     }
 }
 
-.footer-contact-tel {
+.footer-contact-list__tel {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;

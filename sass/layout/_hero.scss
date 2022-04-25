@@ -25,10 +25,9 @@
 }
 
 .hero-btn-modal {
+    @include margin-auto;
     display: block;
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 16px;
